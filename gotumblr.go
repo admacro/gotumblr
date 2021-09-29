@@ -61,7 +61,7 @@ func postQuotes() {
 		post.Add("quote", quote)
 		_, err := getBlog().CreatePost(post)
 		if err != nil {
-			fmt.Errorf("[FAILED] %v\n", quote)
+			fmt.Println(fmt.Errorf("[FAILED] %v\n", quote))
 			break
 		}
 		fmt.Printf("[SUCCESS] %v\n", quote)
@@ -99,7 +99,7 @@ func postText() {
 	post.Add("format", "markdown")
 	_, err := getBlog().CreatePost(post)
 	if err != nil {
-		fmt.Errorf("[ERROR] Failed to post text.\n")
+		fmt.Println(fmt.Errorf("[ERROR] Failed to post text.\n"))
 	} else {
 		fmt.Println("Text posting completed.")
 	}
