@@ -29,7 +29,7 @@ func getClient() *tumblrclient.Client {
 }
 
 func getBlog() *tumblr.BlogRef {
-	return getClient().GetBlog("admacro")
+	return getClient().GetBlog(os.Getenv("TUMBLR_BLOG_NAME"))
 }
 
 func getQuotesAndSource() (quotes []string, source string) {

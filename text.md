@@ -1,2 +1,2 @@
-Gotumblr
-Today is a good day. I just completed my first go cli gotumblr.
+《孟子·告子下》
+故天将降大任于斯人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。
