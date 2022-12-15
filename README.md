@@ -24,7 +24,7 @@ line is the source of the quotes, the following the quotes.
 俭以养德，静以修身。
 净口、修身、齐家、治国、平天下。
 ```
-2. run `./gotumblr q`
+2. run `./gotumblr q` or `go run gotumblr.go q`
 
 ### Post text
 1. Put title and text into `text.md` like following. The first
@@ -34,7 +34,7 @@ the text is set to `markdown`.
 《孟子·告子下》
 故天将降大任于斯人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。
 ```
-2. run `./gotumblr t`
+2. run `./gotumblr t` or `go run gotumblr.go t`
 
 ### Ruby version
 There is a similar version written in Ruby [here](https://github.com/admacro/tumblr-batch-quotes).
