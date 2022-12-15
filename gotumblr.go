@@ -99,7 +99,7 @@ func postText() {
 	post.Add("format", "markdown")
 	_, err := getBlog().CreatePost(post)
 	if err != nil {
-		fmt.Println(fmt.Errorf("[ERROR] Failed to post text.\n"))
+		fmt.Println(fmt.Errorf("[ERROR] Failed to post text. %s\n", err))
 	} else {
 		fmt.Println("Text posting completed.")
 	}
